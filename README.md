@@ -10,7 +10,7 @@ TMPDIR={a directory writable by docker (limited under limactl)}
 
 BACKSTAGE_GITHUB_TOKEN=ghp_fillMeIn
 ```
-See [setting up github integration](https://backstage.io/docs/getting-started/config/authentication#setting-up-a-github-integration) for info on token.
+See [setting up github integration](https://backstage.io/docs/getting-started/config/authentication#setting-up-a-github-integration) for info on token. In short it needs at least `repo` and `workflow` permissions.
 
 Update or create app.config.local.yaml.  This one is used for user authentication.
 
