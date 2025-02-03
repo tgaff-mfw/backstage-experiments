@@ -40,6 +40,6 @@ yarn dev
 
 Import a sample "component".  A component is like a repo or service.
 
-Go to Catalog -> click 'Create' -> Register existing component
-Paste in `https://github.com/tgaff-mfw/jetbrains_sample_rails_app/blob/master/catalog-info.yaml`
-Import and you can view its docs.
+- Go to Catalog -> click 'Create' -> Register existing component
+- Paste in `https://github.com/tgaff-mfw/jetbrains_sample_rails_app/blob/master/catalog-info.yaml`
+- Import and you should be able to view its docs.
