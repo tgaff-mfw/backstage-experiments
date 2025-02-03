@@ -27,15 +27,16 @@ auth:
         clientSecret: FILL ME
 ```
 
+To add a github user update `org.yaml` with your github username:
+https://backstage.io/docs/getting-started/config/authentication#adding-a-user
+
+
 To start the app, run:
 
 ```sh
 yarn install
 yarn dev
 ```
-
-To add a github user update `org.yaml` with your username:
-https://backstage.io/docs/getting-started/config/authentication#adding-a-user
 
 Import a sample "component".  A component is like a repo or service.
 
