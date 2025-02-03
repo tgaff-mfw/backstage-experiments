@@ -12,7 +12,9 @@ BACKSTAGE_GITHUB_TOKEN=ghp_fillMeIn
 ```
 See [setting up github integration](https://backstage.io/docs/getting-started/config/authentication#setting-up-a-github-integration) for info on token. In short it needs at least `repo` and `workflow` permissions.
 
-Update or create app.config.local.yaml.  This one is used for user authentication.
+Next we [need a github oauth app](https://backstage.io/docs/auth/github/provider/).  Settings -> Developer -> Oauth apps -> New Oauth app.
+
+Update or create app.config.local.yaml.  This one is used for user authentication.  Use the clientId and secret from the github oauth app.
 
 ```yaml
 auth:
